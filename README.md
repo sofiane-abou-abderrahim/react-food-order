@@ -27,3 +27,9 @@
 3. run `npm start` in the `backend` folder
 4. run `npm run dev` in the main project folder (frontend)
 5. create a `README.md` file
+
+## 1. Planning the App & Adding a First Component
+
+1. add a `components` folder
+2. inside of it, add a `Header.jsx` file
+3. use this header in the `App.jsx` component
