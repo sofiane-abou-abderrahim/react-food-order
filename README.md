@@ -33,3 +33,9 @@
 1. add a `components` folder
 2. inside of it, add a `Header.jsx` file
 3. use this header in the `App.jsx` component
+
+# 2. Fetching Meals Data (GET HTTP Request)
+
+1. add a new `Meals.jsx` component
+2. send a GET HTTP request to the dummy backend from inside `Meals.jsx`
+3. output the meals items (just the names for now) from inside `App.jsx`
