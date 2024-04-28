@@ -50,3 +50,11 @@
 
 1. add a new `util` folder & add a new `formatting.js` file inside it for formatting the price
 2. use the `currencyFormatter` function in `MealItem.jsx`
+
+## 5. Creating a Configurable & Flexible Custom Button Component
+
+1. add a `UI` subfolder inside the `components` folder for UI core generic building blocks
+2. add a new `Button.jsx` inside that `UI` folder
+3. use this `<Button>` component in your app, for example:
+   1. a text only button style in the `Header.jsx`component
+   2. an other button style in the `MealItem.jsx` component
