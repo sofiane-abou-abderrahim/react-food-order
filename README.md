@@ -34,8 +34,14 @@
 2. inside of it, add a `Header.jsx` file
 3. use this header in the `App.jsx` component
 
-# 2. Fetching Meals Data (GET HTTP Request)
+## 2. Fetching Meals Data (GET HTTP Request)
 
 1. add a new `Meals.jsx` component
 2. send a GET HTTP request to the dummy backend from inside `Meals.jsx`
 3. output the meals items (just the names for now) from inside `App.jsx`
+
+## 3. Adding a "MealItem" Component
+
+1. add a `MealItem.jsx` file
+2. output the `<MealItem>` component in `Meals.jsx`
+3. prepend the image source data in `MealItem.jsx` to load the images from the backend
