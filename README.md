@@ -58,3 +58,10 @@
 3. use this `<Button>` component in your app, for example:
    1. a text only button style in the `Header.jsx`component
    2. an other button style in the `MealItem.jsx` component
+
+## 6. Getting Started with Cart Context & Reducer
+
+1. use React's context feature to manage the cart data in a more general centralized way
+   1. add a `store` folder
+   2. inside it, add a `CartContext.jsx` file where you manage this cart data & this cart context
+2. use React's Reducer feature instead of State
