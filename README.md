@@ -81,3 +81,14 @@
 
 1. build a modal as a standalone reusable UI component named `Modal.jsx`
 2. use an `open` prop & `useEffect()` & `useRef()` to open this dialog
+
+## 9. Opening the Cart in the Modal via a New Context
+
+1. add a new `Cart.jsx` component for outputting the cart data on the screen
+2. use `useContext()` to get access to the cart items stored in the cart context
+3. add a new `UserProgressContext.jsx` component for taking care of showing or not showing this cart data
+4. use the `UserProgressContextProvider` in `App.jsx` and wrap it around the other components
+5. use the `UserProgressCtx` in `Header.jsx`
+6. show the Cart component in `Cart.jsx` with help of `useContext()`
+7. output the `<Cart>` component in `App.jsx`
+8. set the logic for closing the modal in `Cart.jsx` & `Modal.jsx`
