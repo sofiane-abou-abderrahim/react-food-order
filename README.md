@@ -65,3 +65,14 @@
    1. add a `store` folder
    2. inside it, add a `CartContext.jsx` file where you manage this cart data & this cart context
 2. use React's Reducer feature instead of State
+
+## 7. Finishing & Using the Cart Context & Reducer
+
+1. finish the cart logic inside the `cartReducer` function in `CartContext.jsx`
+2. connect the cart logic with help of `useContext()` to the different components
+   1. use the `useReducer()` hook correctly inside of the `CartContextProvider` component
+   2. pass the cart context value to the `<CartContext.Provider>` component
+3. use the cart context inside of the other components
+   1. wrap all your components with the `<CartContextProvider>` component in `App.jsx`
+   2. use the cart context in `MealItem.jsx` to update your cart
+   3. access the cart context in `Header.jsx` to display the number of meals in the cart
