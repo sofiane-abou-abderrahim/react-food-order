@@ -76,3 +76,8 @@
    1. wrap all your components with the `<CartContextProvider>` component in `App.jsx`
    2. use the cart context in `MealItem.jsx` to update your cart
    3. access the cart context in `Header.jsx` to display the number of meals in the cart
+
+## 8. Adding a Reusable Modal Component with useEffect
+
+1. build a modal as a standalone reusable UI component named `Modal.jsx`
+2. use an `open` prop & `useEffect()` & `useRef()` to open this dialog
