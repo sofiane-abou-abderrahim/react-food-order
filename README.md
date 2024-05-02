@@ -92,3 +92,9 @@
 6. show the Cart component in `Cart.jsx` with help of `useContext()`
 7. output the `<Cart>` component in `App.jsx`
 8. set the logic for closing the modal in `Cart.jsx` & `Modal.jsx`
+
+## 10. Working on the Cart Items
+
+1. add a new `CartItem.jsx`
+2. output the `<CartItem>` component in `Cart.jsx`
+3. make sure the buttons increase & decrease the items quantity in the cart
