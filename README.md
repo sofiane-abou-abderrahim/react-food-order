@@ -98,3 +98,14 @@
 1. add a new `CartItem.jsx`
 2. output the `<CartItem>` component in `Cart.jsx`
 3. make sure the buttons increase & decrease the items quantity in the cart
+
+## 11. Adding a Custom Input Component & Managing Modal Visibility
+
+1. show the `Go to Checkout` button only if we have an item in the cart in `Cart.jsx`
+2. add a new `Checkout.jsx` component that will show a new page when clicking on the `Go to Checkout` button
+3. it should open a modal
+4. create a new shared `Input.jsx` component
+5. manage opening & closing the modal
+6. output the `<Checkout>` component in `App.jsx` to show the checkout modal
+7. update the `UserProgress` context whenever the dialog is closed with `escape` by adding an `onClose` prop in `Modal.jsx`
+8. use the `onClose` prop in `Cart.jsx` & `Checkout.jsx`
