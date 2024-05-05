@@ -120,3 +120,12 @@
 
 1. send the POST request inside the `handleSubmit` function in `Checkout.jsx`
 2. make some order on the app & check the `orders.json` file to see whether the order was sent successfully
+
+## 14. Adding a Custom HTTP Hook & Avoiding Common Errors
+
+1. create a new `hooks` folder & add a new `useHttp.js` file inside of it
+2. define a new `sendHttpRequest` helper function
+3. define another new `sendRequest` function inside of the `useHttp` custom hook function
+4. use `try / catch`
+5. manage some state to reflect those different requests states in the UI
+6. use the `useHttp` custom hook in `Meals.jsx`
