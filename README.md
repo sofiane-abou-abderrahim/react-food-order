@@ -115,3 +115,8 @@
 1. handle form submission in `Checkout.jsx`
 2. validate the input in `Input.jsx` with help of the `required` attribute
 3. get hold of the entered values with the built-in `FormData` feature in `Checkout.jsx`
+
+## 13. Sending a POST Request with Order Data
+
+1. send the POST request inside the `handleSubmit` function in `Checkout.jsx`
+2. make some order on the app & check the `orders.json` file to see whether the order was sent successfully
