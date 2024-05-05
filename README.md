@@ -109,3 +109,9 @@
 6. output the `<Checkout>` component in `App.jsx` to show the checkout modal
 7. update the `UserProgress` context whenever the dialog is closed with `escape` by adding an `onClose` prop in `Modal.jsx`
 8. use the `onClose` prop in `Cart.jsx` & `Checkout.jsx`
+
+## 12. Handling Form Submission & Validation
+
+1. handle form submission in `Checkout.jsx`
+2. validate the input in `Input.jsx` with help of the `required` attribute
+3. get hold of the entered values with the built-in `FormData` feature in `Checkout.jsx`
