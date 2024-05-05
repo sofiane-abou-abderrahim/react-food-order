@@ -134,3 +134,10 @@
 
 1. add a new `Error.jsx` component to output some error message
 2. add CSS styles for loading & error messages in `index.css`
+
+## 16. Finishing Touches
+
+1. use the `useHttp.jsx` hook component in `Checkout.jsx`
+2. handle the `data`, `isLoading` & `error` states
+3. clear the cart once submitted the order in `Checkout.jsx` with help of a new `clearCart` function defined in `CartContext.jsx`
+4. clear the data after submitted a successful order with help of a new `clearData` function in `useHttp.js` & call it in `Checkout.jsx`
