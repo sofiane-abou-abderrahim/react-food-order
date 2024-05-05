@@ -129,3 +129,8 @@
 4. use `try / catch`
 5. manage some state to reflect those different requests states in the UI
 6. use the `useHttp` custom hook in `Meals.jsx`
+
+## 15. Handling HTTP Loading & Error States
+
+1. add a new `Error.jsx` component to output some error message
+2. add CSS styles for loading & error messages in `index.css`
